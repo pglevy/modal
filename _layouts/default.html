@@ -12,8 +12,8 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
 </head>
 
-<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
-  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container mx-auto prose{% endif %}">
+<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-5{% endif %}">
+  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container mx-auto {% endif %}">
     {{ content }}
   </main>
   <script src="assets/js/main.js"></script>
